@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-administer-storagegrid.html 
 keywords: grid manager, advanced view, standard view, use grid manager, gridmanager 
-summary: 使用進階視圖從NetApp控制台管理StorageGRID系統。此檢視可讓您在NetApp控制台中使用 Grid Manager。 
+summary: 使用進階視圖從NetApp Console管理StorageGRID系統。此檢視可讓您在NetApp Console中使用 Grid Manager。 
 ---
-= 使用NetApp控制台中的網格管理器管理StorageGRID
+= 使用NetApp Console中的網格管理器管理StorageGRID
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -16,7 +16,7 @@ summary: 使用進階視圖從NetApp控制台管理StorageGRID系統。此檢視
 [role="lead"]
 使用進階視圖從控制台管理StorageGRID系統。此視圖使您能夠從控制台使用網格管理器。
 
-.所需的NetApp控制台角色：
+.所需的NetApp Console角色：
 儲存管理員或系統健康專家。link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解訪問角色。"^]
 
 

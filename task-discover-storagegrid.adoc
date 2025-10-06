@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-discover-storagegrid.html 
 keywords: storagegrid, cluster, discover, manage, discovering, discover storagegrid 
-summary: 發現本地環境中的StorageGRID系統，然後使用 Grid Manager 直接從NetApp Console 管理它們。 
+summary: 發現本地環境中的StorageGRID系統，然後使用 Grid Manager 直接從NetApp Console管理它們。 
 ---
-= 將StorageGRID系統新增至NetApp控制台
+= 將StorageGRID系統新增至NetApp Console
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,15 +14,15 @@ summary: 發現本地環境中的StorageGRID系統，然後使用 Grid Manager �
 
 
 [role="lead"]
-使用 Grid Manager 直接從NetApp Console 管理您的 StorageGrid 系統。
+使用 Grid Manager 直接從NetApp Console管理您的 StorageGrid 系統。
 
-.所需的NetApp控制台角色：
-儲存管理員或系統健康專家。link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解NetApp控制台存取角色。"^]
+.所需的NetApp Console角色：
+儲存管理員或系統健康專家。link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解NetApp Console存取角色。"^]
 
 .開始之前
 您需要以下內容：
 
-* 使用版本 3.9.43 或更高版本的NetApp控制台代理程式。您必須具有組織管理員角色才能安裝控制台代理程式。如果您不知道您的組織是否有控制台代理，或者是否需要建立控制台代理，請聯絡您的NetApp控制台管理員。 https://docs.netapp.com/us-en/bluexp-setup-admin/task-user-settings.html#contact-your-organization-administrator["聯絡您的組織管理員。"^]
+* 使用版本 3.9.43 或更高版本的NetApp Console代理程式。您必須具有組織管理員角色才能安裝控制台代理程式。如果您不知道您的組織是否有控制台代理，或者是否需要建立控制台代理，請聯絡您的NetApp Console管理員。 https://docs.netapp.com/us-en/bluexp-setup-admin/task-user-settings.html#contact-your-organization-administrator["聯絡您的組織管理員。"^]
 * 管理節點的網域名稱或IP位址。
 * 管理節點的管理員憑證。
 * 安裝在StorageGRID系統上的管理介面憑證。
@@ -45,19 +45,19 @@ https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-ce
 .. 在「StorageGRID 叢集詳細資料」頁面上，選擇「新增」。
 
 
-. 或者，選擇*複製證書*來複製證書的詳細資訊。如果需要，您可以使用證書詳細資訊執行額外的驗證。
+. 或者，選擇「*複製憑證*」來複製憑證的詳細資料。如果需要，您可以使用證書詳細資訊執行額外的驗證。
 . 執行下列操作之一：
 +
 .. 選擇*批准證書*以使用該證書。
 +
-NetApp控制台顯示成功訊息，並透過驗證已核准的憑證來保護StorageGRID伺服器和控制台代理程式之間的所有通訊。
+NetApp Console顯示成功訊息，並透過驗證已核准的憑證來保護StorageGRID伺服器和控制台代理程式之間的所有通訊。
 
 .. 選擇“*取消*”以結束發現程序而不驗證證書。
 +
 例如，如果您收到錯誤訊息，通知您需要更新StorageGRID管理證書，則可以選擇「*取消*」。
 
 +
-若要更新證書，請前往您的StorageGRID系統，更新證書，然後從NetApp控制台重新啟動發現程序。
+若要更新證書，請前往您的StorageGRID系統，更新證書，然後從NetApp Console重新啟動發現程序。
 
 
 

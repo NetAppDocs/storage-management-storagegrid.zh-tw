@@ -47,6 +47,6 @@ link:https://www.netapp.com/company/legal/privacy-policy/["https://www.netapp.co
 
 通知文件提供有關NetApp軟體中使用的第三方版權和許可的資訊。
 
-* https://docs.netapp.com/us-en/console-setup-admin/media/notice.pdf["NetApp控制台通知"^]
-* link:media/NOTICE-storageservices.pdf["有關StorageGRID系統的NetApp Console 管理的通知"^]
+* https://docs.netapp.com/us-en/console-setup-admin/media/notice.pdf["NetApp Console通知"^]
+* link:media/NOTICE-storageservices.pdf["有關StorageGRID系統的NetApp Console管理的通知"^]
 
