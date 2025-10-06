@@ -1,0 +1,29 @@
+---
+sidebar: sidebar 
+permalink: task-remove-storagegrid.html 
+keywords: storagegrid, cluster, remove, delete, remove storagegrid, delete cluster, delete working environment, remove working environment, remove system, delete system 
+summary: 如果您不再想從NetApp控制台管理StorageGRID系統，請將其刪除。 
+---
+= 刪除StorageGRID系統
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+如果您不再想從NetApp控制台管理StorageGRID系統，請將其刪除。
+
+.所需的NetApp控制台角色：
+存儲管理員。link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解NetApp控制台存取角色。"^]
+
+從控制台中刪除系統不會影響StorageGRID系統。您可以隨時將其重新新增至控制台。
+
+.步驟
+. 從導覽選單中，選擇*儲存>管理*。
+. 從*系統*頁面開啟StorageGRID系統。
+. 從標準視圖中，選擇選單圖示並選擇*從工作區中刪除*。
+. 選擇*刪除*進行確認。
+

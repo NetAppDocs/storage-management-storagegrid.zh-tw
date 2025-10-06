@@ -1,0 +1,9 @@
+= 需要BlueXP訪問角色
+:allow-uri-read: 
+
+
+
+
+=== 需要BlueXP訪問角色
+
+現在，您需要以下存取角色之一來檢視、發現或管理BlueXP中的StorageGRID ：*組織管理員*、*資料夾或專案管理員*、*儲存管理員*或*儲存健康專家*。link:https://docs.netapp.com/us-en/bluexp/reference-iam-predefined-roles.html["了解BlueXP訪問角色。"^]

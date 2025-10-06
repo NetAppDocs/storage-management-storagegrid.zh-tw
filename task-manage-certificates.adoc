@@ -1,0 +1,54 @@
+---
+sidebar: sidebar 
+permalink: task-manage-certificates.html 
+keywords: storagegrid, certificate, manage, manage interface certificate, refresh certificate, update certificate 
+summary: 由於憑證可能會過期，您有時可能需要查看狀態或更新憑證。 
+---
+= 在NetApp控制台中檢視和更新StorageGRID證書
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+在您從NetApp控制台發現系統之前， StorageGRID系統上需要有管理介面憑證。此憑證在控制台和StorageGRID之間提供了安全連線。由於憑證可能會過期，您有時可能需要查看狀態或更新憑證。
+
+.所需的NetApp控制台角色：
+存儲管理員。link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解NetApp控制台存取角色。"^]
+
+
+
+== 查看管理介面證書的狀態
+
+查看StorageGRID系統的管理介面憑證的狀態，以驗證該憑證是否仍然有效。
+
+.步驟
+. 從導覽選單中，選擇*儲存>管理*。
+. 在*系統*頁面上，選擇StorageGRID系統。
+. 從標準檢視中，檢查頁面右側「資訊」窗格底部的使用者核准憑證的狀態。
++
+
+NOTE: 證書狀態每24小時刷新一次。
+
+
+
+
+
+== 更新管理介面證書
+
+如果您的管理介面憑證狀態無效或您收到憑證已過期的通知，則需要更新它，以便NetApp控制台可以連接到StorageGRID。
+
+.步驟
+. 前往StorageGRID中的本機網格管理器並按照說明進行操作 https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["在StorageGRID上安裝管理介面證書"]。
+. 從NetApp控制台導覽選單中，選擇「儲存」>「管理」。
+. 在*系統*頁面上，選擇StorageGRID系統。
+. 選擇更多選項圖示（帶有三個垂直點的圓圈）。
++
+image:screenshot-update-certificate.png["更新選單的螢幕截圖。"]
+
+. 選擇*更新證書*。
+. 在「核准證書」頁面上，選擇「核准憑證」以使用更新後的憑證。
+

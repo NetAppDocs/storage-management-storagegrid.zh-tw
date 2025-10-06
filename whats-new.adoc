@@ -1,0 +1,69 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, storagegrid' 
+summary: 了解在NetApp控制台中管理StorageGRID系統的新功能。 
+---
+= StorageGRID管理的新功能
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+了解在NetApp控制台中管理StorageGRID系統的新功能。
+
+
+
+== 2025年10月6日
+
+
+
+=== BlueXP現在是NetApp控制台
+
+NetApp控制台建立在增強和重組的BlueXP基礎之上，可在企業級內部和雲端環境中集中管理NetApp儲存和NetApp資料服務，提供即時洞察、更快的工作流程和簡化的管理，並且高度安全且合規。
+
+有關更改的詳細信息，請參閱link:https://docs.netapp.com/us-en/console-relnotes/index.html["NetApp控制台發行說明"]。
+
+
+
+== 2025年5月12日
+
+
+
+=== 需要BlueXP訪問角色
+
+現在，您需要以下存取角色之一來檢視、發現或管理BlueXP中的StorageGRID ：*組織管理員*、*資料夾或專案管理員*、*儲存管理員*或*儲存健康專家*。link:https://docs.netapp.com/us-en/bluexp/reference-iam-predefined-roles.html["了解BlueXP訪問角色。"^]
+
+
+
+== 2024年8月7日
+
+
+
+=== 新的高級視圖
+
+從StorageGRID 11.8 開始，您可以使用熟悉的 Grid Manager 介面從BlueXP管理您的StorageGRID系統。
+
+https://docs.netapp.com/us-en/bluexp-storagegrid/task-administer-storagegrid.html["了解如何使用進階視圖管理StorageGRID"] 。
+
+
+
+=== 能夠審查並批准StorageGRID管理介面證書
+
+現在，您可以在從BlueXP發現StorageGRID系統時審查和批准StorageGRID管理介面證書。您也可以審查並批准已發現網格上的最新StorageGRID管理介面證書。
+
+https://docs.netapp.com/us-en/bluexp-storagegrid/task-discover-storagegrid.html["了解如何在系統發現期間審查和批准伺服器憑證。"]
+
+
+
+== 2022年9月18日
+
+
+
+=== 對StorageGRID的支持
+
+現在您可以直接從BlueXP發現您的StorageGRID系統。發現StorageGRID可為您提供混合多雲資料的完整視圖。

@@ -1,0 +1,47 @@
+---
+settings:
+  name: StorageGRID
+  platform: cloud
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  langs: zh-tw,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,ko-kr,zh-cn
+sidebar:
+  entries:
+  - title: StorageGRID文檔
+    url: "/index.html"
+  - title: 發行說明
+    entries:
+    - title: 什麼是新的
+      url: "/whats-new.html"
+    - title: 已知問題
+      url: "/reference-known-issues.html"
+  - title: 開始
+    entries:
+    - title: 了解StorageGRID系統
+      url: "/task-discover-storagegrid.html"
+  - title: 管理StorageGRID系統
+    entries:
+    - title: 查看您的StorageGRID系統
+      url: "/task-view-storagegrid.html"
+    - title: 查看和更新​​ StorageGRID證書
+      url: "/task-manage-certificates.html"
+    - title: 使用進階視圖管理StorageGRID
+      url: task-administer-storagegrid.html
+    - title: 將NetApp資料服務與StorageGRID結合使用
+      url: "/task-enable-data-services.html"
+    - title: 刪除系統
+      url: "/task-remove-storagegrid.html"
+  - title: 知識和支持
+    entries:
+    - title: 註冊以獲得支持
+      url: "/task-support-registration.html"
+    - title: 獲取協助
+      url: "/task-get-help.html"
+  - title: 法律聲明
+    url: "/legal-notices.html"
+product-family:
+  name: Storage Management
+  repo: storage-management-family

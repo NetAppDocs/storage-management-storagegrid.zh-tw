@@ -1,0 +1,35 @@
+---
+sidebar: sidebar 
+permalink: reference-known-issues.html 
+keywords: issues, known issues, bugs, errors, storagegrid, storage grid, storagegrid known issues, netapp console known issues 
+summary: 已知問題指明了可能會阻止您成功使用此版本產品的問題。 
+---
+= 在NetApp控制台中管理StorageGRID 的已知問題
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+已知問題指明了可能會阻止您成功使用此版本產品的問題。
+
+
+
+== 更新後的顯示名稱未出現在NetApp控制台中
+
+如果您使用重新命名程序為網站或網格定義新的顯示名稱，則新的顯示名稱不會反映在NetApp控制台中。在NetApp控制台中，系統會繼續顯示系統名稱而不是新的顯示名稱。
+
+
+
+== 過濾警報​​時出錯
+
+使用進階視圖時，過濾警報頁面的內容會導致錯誤。
+
+
+
+== 編輯電網聯合連接時出錯
+
+使用進階視圖時，編輯網格聯合連接時可能會遇到網關逾時錯誤。
