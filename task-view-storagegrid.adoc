@@ -17,7 +17,7 @@ summary: 發現StorageGRID系統後，您可以查看有關容量分佈以及相
 發現StorageGRID系統後，您可以查看有關容量分佈以及相關警報、節點和租戶的詳細資訊。
 
 .所需的NetApp Console角色：
-儲存管理員或系統健康專家。link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解NetApp Console存取角色。"^]
+儲存管理員或系統健康專家。link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["了解NetApp Console存取角色"^]。
 
 .步驟
 . 從導覽選單中，選擇*儲存>管理*。

@@ -17,7 +17,7 @@ summary: 使用進階視圖從NetApp Console管理StorageGRID系統。此檢視�
 使用進階視圖從控制台管理StorageGRID系統。此視圖使您能夠從控制台使用網格管理器。
 
 .所需的NetApp Console角色：
-儲存管理員或系統健康專家。link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解訪問角色。"^]
+儲存管理員或系統健康專家。link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["了解訪問角色"^]。
 
 
 
@@ -75,7 +75,6 @@ summary: 使用進階視圖從NetApp Console管理StorageGRID系統。此檢視�
 配置
  a| 
 * 電網密碼
-* 流量分類 > 指標
 * 安全性設定 > 瀏覽器不活動逾時
 * 單一登入
 * SNMP 代理程式 > BMC介面的 MIB 文件
@@ -96,8 +95,8 @@ summary: 使用進階視圖從NetApp Console管理StorageGRID系統。此檢視�
 支援
  a| 
 * 電網拓撲
-* 紀錄
-* 指標，包括 UI 中其他地方到 Prometheus 指標和 Grafana 儀表板的所有連結。
+* 日誌收集
+* 所有指向 Prometheus 指標和 Grafana 儀錶板的鏈接
 * 所有傳統警報選項
 * 鏈路成本
 * NMS實體
@@ -106,15 +105,15 @@ summary: 使用進階視圖從NetApp Console管理StorageGRID系統。此檢視�
 |===
 
 
-== 切換到進階視圖
+== 切換到網格管理器
 
-開啟StorageGRID系統並選擇進階視圖選項。
+開啟StorageGRID系統並選擇網格管理器選項。
 
 .步驟
 . 從*系統*頁面開啟StorageGRID系統。
-. 在右上角，選擇*切換到進階視圖*。
+. 在右上角，選擇*切換到網格管理員*。
 . 使用 Grid Manager 管理StorageGRID系統。
-. 如果需要，請選擇“切換到標準視圖”以透過控制台返回標準視圖。
+. 如果需要，請選擇「返回」以透過控制台返回標準視圖。
 
 
 

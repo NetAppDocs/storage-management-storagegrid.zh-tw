@@ -17,7 +17,7 @@ summary: 如果您不再想從NetApp Console管理StorageGRID系統，請將其�
 如果您不再想從NetApp Console管理StorageGRID系統，請將其刪除。
 
 .所需的NetApp Console角色：
-存儲管理員。link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解NetApp Console存取角色。"^]
+存儲管理員。link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["了解NetApp Console存取角色"^]。
 
 從控制台中刪除系統不會影響StorageGRID系統。您可以隨時將其重新新增至控制台。
 

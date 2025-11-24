@@ -34,9 +34,9 @@ NetApp Console建立在增強和重組的BlueXP基礎之上，可在企業級內
 
 
 
-=== 需要BlueXP訪問角色
+=== 需要NetApp Console存取角色
 
-現在，您需要以下存取角色之一來檢視、發現或管理BlueXP中的StorageGRID ：*組織管理員*、*資料夾或專案管理員*、*儲存管理員*或*儲存健康專家*。link:https://docs.netapp.com/us-en/bluexp/reference-iam-predefined-roles.html["了解BlueXP訪問角色。"^]
+您現在需要以下存取角色之一才能在NetApp Console中檢視、發現或管理StorageGRID ：*組織管理員*、*資料夾或專案管理員*、*儲存管理員*或*儲存運作狀況專家*。link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html#data-service-roles["了解NetApp Console存取角色。"^]
 
 
 

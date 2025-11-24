@@ -10,9 +10,6 @@
   <block id="7ef5c031e9bd4c1394a8093c50afe4e2" category="paragraph">現在，您可以在從BlueXP發現StorageGRID系統時審查和批准StorageGRID管理介面證書。您也可以審查並批准已發現網格上的最新StorageGRID管理介面證書。</block>
   <block id="4a314d3b77101d6faf44fa4063c45276" category="inline-link">了解如何在系統發現期間審查和批准伺服器憑證。</block>
   <block id="045269b1f12b0a8f2aee954f43a8daa6" category="paragraph"><block ref="045269b1f12b0a8f2aee954f43a8daa6" category="inline-link-rx"></block></block>
-  <block id="2bef154766331bbaacbab995f24ef0c2" category="doc">需要BlueXP訪問角色</block>
-  <block id="fd3b9b6f969e334605ecb2deacbd84cc" category="inline-link-macro">了解BlueXP訪問角色。</block>
-  <block id="44a4a7c03393e00f4aeee3bd72474eea" category="paragraph">現在，您需要以下存取角色之一來檢視、發現或管理BlueXP中的StorageGRID ：*組織管理員*、*資料夾或專案管理員*、*儲存管理員*或*儲存健康專家*。<block ref="b792d0fe33393ff1eec4387f959ddd2c" category="inline-link-macro-rx"></block></block>
   <block id="bc2fe31b1e2682a9a79513d792e9c721" category="doc">BlueXP現在是NetApp Console</block>
   <block id="995c8f79a8e07fbd8d519e45d03d6004" category="paragraph">NetApp Console建立在增強和重組的BlueXP基礎之上，可在企業級內部和雲端環境中集中管理NetApp儲存和NetApp Data Services，提供即時洞察、更快的工作流程和簡化的管理，並且高度安全且合規。</block>
   <block id="2ef9d641d45afe99b74ad6f9a9f797ad" category="inline-link-macro">NetApp Console發行說明</block>
@@ -52,8 +49,6 @@
   <block id="e11189f51e944c56ae93486d4b5db590" category="doc">使用NetApp Console中的網格管理器管理StorageGRID</block>
   <block id="d5c34e6c10be47a51e62aadafb90e8f8" category="paragraph">使用進階視圖從控制台管理StorageGRID系統。此視圖使您能夠從控制台使用網格管理器。</block>
   <block id="f3d96e033470d8fb9d043aed29754d44" category="paragraph-title">所需的NetApp Console角色：</block>
-  <block id="c86bd67be80794fcaa3f1d91aa8b2899" category="inline-link-macro">了解訪問角色。</block>
-  <block id="647e72c68ac2b108fc4f872a4408d77a" category="paragraph">儲存管理員或系統健康專家。<block ref="5a4d408bd57f7cf7efbd6cf878c737a7" category="inline-link-macro-rx"></block></block>
   <block id="1f0b82560627b660c6c6958a1df834b8" category="section-title">支援的配置</block>
   <block id="82f590009d4efe1d732fe71c4acb2ae2" category="paragraph">從StorageGRID 11.8 開始，Grid Manager 在控制台中可用。</block>
   <block id="e646e16bee8b32e6ea29e30d01970a6c" category="section-title">限制</block>
@@ -74,7 +69,6 @@
   <block id="d1760d83776d2cad4f596e5fbdca7031" category="paragraph">儲存等級連結</block>
   <block id="254f642527b45bc260048e30704edb39" category="paragraph">配置</block>
   <block id="8e8a68d187d0714e364a531fe90c3e48" category="list-text">電網密碼</block>
-  <block id="4e4b4ed3fd3d46ee1adfbe44d5d59f43" category="list-text">流量分類 &gt; 指標</block>
   <block id="a48031b9725d4cf40505c76b9f1639b6" category="list-text">安全性設定 &gt; 瀏覽器不活動逾時</block>
   <block id="f349dbd269e091419d25308532e10fa9" category="list-text">單一登入</block>
   <block id="ca0fa3abc1c867e840da53c9362947e0" category="list-text">SNMP 代理程式 &gt; BMC介面的 MIB 文件</block>
@@ -83,18 +77,12 @@
   <block id="c329847c5a9eb54120dcc6a37e7688cd" category="list-text">軟體更新</block>
   <block id="db5eb84117d06047c97c9a0191b5fffe" category="paragraph">支援</block>
   <block id="18e8755b803a7bb837ea9fdd4a198fcf" category="list-text">電網拓撲</block>
-  <block id="b2d37ae1cedf42ff874289b721860af2" category="list-text">紀錄</block>
-  <block id="e3c28fcb661163dc6895b75c04f2efd7" category="list-text">指標，包括 UI 中其他地方到 Prometheus 指標和 Grafana 儀表板的所有連結。</block>
   <block id="398728716b4e5021932fed1c2a8ebeb8" category="list-text">所有傳統警報選項</block>
   <block id="62e734353c5cfd6023d970172d9908a9" category="list-text">鏈路成本</block>
   <block id="5afeba0bd099057d2f768c19f06ec2da" category="list-text">NMS實體</block>
-  <block id="3862c7ad20b0923cf8f9b1be9e028f11" category="section-title">切換到進階視圖</block>
-  <block id="4fd2f0ed2a27d6ecfe750ed0f462f569" category="paragraph">開啟StorageGRID系統並選擇進階視圖選項。</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步驟</block>
   <block id="f244da7e15f3999df2831b63141e093f" category="list-text">從*系統*頁面開啟StorageGRID系統。</block>
-  <block id="692e1e106333597b5a86044f5e0af539" category="list-text">在右上角，選擇*切換到進階視圖*。</block>
   <block id="4b233cf02f1889c420108e8345cc0030" category="list-text">使用 Grid Manager 管理StorageGRID系統。</block>
-  <block id="b7271b5e81c9ac4c11c4746d6b80a538" category="list-text">如果需要，請選擇“切換到標準視圖”以透過控制台返回標準視圖。</block>
   <block id="e5e3035b0f7e5a2843ab139092d0b6fa" category="section-title">取得網格管理器協助</block>
   <block id="3778f3873debfe11e2ace6bb6af1e417" category="inline-link">StorageGRID文檔</block>
   <block id="e05b3769a3e17ad902ca3ef85360d7f9" category="paragraph">如果您需要使用網格管理器的協助，請參閱<block ref="a933c7261fbaa2ef6900890d35e68b11" category="inline-link-rx"></block>以獲得逐步說明。</block>
@@ -102,11 +90,8 @@
   <block id="c10ae48739661aebcdebc04124762406" category="doc">將StorageGRID系統新增至NetApp Console</block>
   <block id="5034e08cdc3b4865f67cdf020c27269b" category="paragraph">使用 Grid Manager 直接從NetApp Console管理您的 StorageGrid 系統。</block>
   <block id="dbbc09735940a2a21109b74dc600b92b" category="inline-link-macro">了解NetApp Console存取角色。</block>
-  <block id="6fd600090915668444ea7d162325adc5" category="paragraph">儲存管理員或系統健康專家。<block ref="df85ea2f8ea618bf5b67be06e51eaa48" category="inline-link-macro-rx"></block></block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">開始之前</block>
   <block id="4c6a9048ac276eb9391ebe2abd8e0c0d" category="paragraph">您需要以下內容：</block>
-  <block id="d4a6e71a69daabc670296b6e5d940bcf" category="inline-link">聯絡您的組織管理員。</block>
-  <block id="f989c70e8b10ec6677c8508c4ad6716d" category="list-text">使用版本 3.9.43 或更高版本的NetApp Console代理程式。您必須具有組織管理員角色才能安裝控制台代理程式。如果您不知道您的組織是否有控制台代理，或者是否需要建立控制台代理，請聯絡您的NetApp Console管理員。<block ref="765570b937b73d16d7ea0af9aecd0128" category="inline-link-rx"></block></block>
   <block id="8ed6fea4723099b9cd21d8f577ab8fb6" category="list-text">管理節點的網域名稱或IP位址。</block>
   <block id="cdf740c7139af2d388c8083334061fa1" category="list-text">管理節點的管理員憑證。</block>
   <block id="7946381c1469da9982f0ec23675e074e" category="list-text">安裝在StorageGRID系統上的管理介面憑證。</block>
@@ -136,15 +121,12 @@
   <block id="a904ec7788dd2ecae857966472095d9f" category="list-text">使用NetApp Backup and Recovery將資料從本機ONTAP系統備份到NetApp StorageGRID系統中的物件儲存。</block>
   <block id="fb1b3179d6c46954a36b92cac0736222" category="paragraph">首先，前往「*系統*」頁面，然後將本機ONTAP系統拖曳到您的StorageGRID系統上。</block>
   <block id="a4304a5e5ad0523cd1e2516efcbb04ea" category="inline-link">了解有關將本地ONTAP資料備份到StorageGRID 的更多信息</block>
-  <block id="9e5b68fb5027979545709db9c86c496d" category="paragraph"><block ref="9e5b68fb5027979545709db9c86c496d" category="inline-link-rx"></block></block>
   <block id="04affab1cdd3516658ad652fcfaf5a44" category="list-text">使用NetApp Cloud Tiering自動將非活動資料從本地ONTAP叢集分層到StorageGRID。</block>
   <block id="a7b3ca6a800aa86763c04f7fff5c0f0c" category="paragraph">首先，前往*系統*頁面，然後將本機ONTAP系統拖曳到StorageGRID系統上。</block>
   <block id="39759be047cc5c7c6c37b3a3c14c7616" category="inline-link">了解有關將資料從本地ONTAP集群分層到StorageGRID 的更多信息</block>
-  <block id="f2c38058631be40aaf2ca546dedb5828" category="paragraph"><block ref="f2c38058631be40aaf2ca546dedb5828" category="inline-link-rx"></block></block>
   <block id="d84ae9c5fee4a20424a50b491bf9ca94" category="list-text">使用NetApp Copy and Sync將資料同步到StorageGRID系統同步資料。</block>
   <block id="d95e5db4ff301d281f0779f0048181e8" category="paragraph">首先，前往*系統*頁面並將來源系統拖曳到目標系統上。  StorageGRID可以是來源，也可以是目標。</block>
   <block id="3759d89c909b76c79aaa28ed2ce4306a" category="inline-link">了解有關NetApp Copy and Sync的更多信息</block>
-  <block id="cab10d8498bc6058193227ca80c2484e" category="paragraph"><block ref="cab10d8498bc6058193227ca80c2484e" category="inline-link-rx"></block></block>
   <block id="a99fab69b8aa9775fe1767ce605ae8bd" category="summary">NetApp以多種方式為NetApp Console提供支援。全天候提供廣泛的免費自助支援選項，例如知識庫 (KB) 文章和社群論壇。您的支援註冊包含透過網路工單取得的遠端技術支援。</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">獲取協助</block>
   <block id="2feeca48692986e9cc471ec61f847fca" category="paragraph">NetApp以多種方式為NetApp Console及其雲端服務提供支援。全天候提供廣泛的免費自助支援選項，例如知識庫 (KB) 文章和社群論壇。您的支援註冊包含透過網路工單取得的遠端技術支援。</block>
@@ -222,7 +204,6 @@
   <block id="1c0cf398fca729802189afd04195daca" category="summary">由於憑證可能會過期，您有時可能需要查看狀態或更新憑證。</block>
   <block id="dd0d36f89a15258549e13613858361ef" category="doc">在NetApp Console中檢視和更新StorageGRID憑證</block>
   <block id="5327d9fc450204dcc46442e6725edae3" category="paragraph">在您從NetApp Console發現系統之前， StorageGRID系統上需要有管理介面憑證。此憑證在控制台和StorageGRID之間提供了安全連線。由於憑證可能會過期，您有時可能需要查看狀態或更新憑證。</block>
-  <block id="c770cc35592d37d6c613acd34268446d" category="paragraph">存儲管理員。<block ref="df85ea2f8ea618bf5b67be06e51eaa48" category="inline-link-macro-rx"></block></block>
   <block id="fbd54ca9d42fc0afdb26c5c699c8e55e" category="section-title">查看管理介面證書的狀態</block>
   <block id="ac2871047714af92edb3022cb27acb51" category="paragraph">查看StorageGRID系統的管理介面憑證的狀態，以驗證該憑證是否仍然有效。</block>
   <block id="d98db4acfa58dea7d268506b66ad6e71" category="list-text">在*系統*頁面上，選擇StorageGRID系統。</block>
@@ -230,11 +211,8 @@
   <block id="5c8aefe50da5e68bac8b7fadb69f27cd" category="admonition">證書狀態每24小時刷新一次。</block>
   <block id="ed705c097546086b65ee2918f8c18f93" category="section-title">更新管理介面證書</block>
   <block id="7119ba4526ce61e0874111f9ae6c8000" category="paragraph">如果您的管理介面憑證狀態無效或您收到憑證已過期的通知，則需要更新它，以便NetApp Console可以連接到StorageGRID。</block>
-  <block id="4b4e284cad41e74d772677e47ccbf432" category="list-text">前往StorageGRID中的本機網格管理器並按照說明進行操作<block ref="e4a1425c9a71162659bfbfada9a25737" category="inline-link-rx"></block>。</block>
   <block id="1155fb969d9717092513d154149e1f78" category="list-text">從NetApp Console導覽功能表中，選擇「儲存」&gt;「管理」。</block>
-  <block id="40540158a277d365081d54ce377ee023" category="list-text">選擇更多選項圖示（帶有三個垂直點的圓圈）。</block>
   <block id="9769a2363939e90bde7efa3d07411abc" category="inline-image-macro">更新選單的螢幕截圖。</block>
-  <block id="37ed989771f3eef279909a198294f53c" category="paragraph"><block ref="37ed989771f3eef279909a198294f53c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="de70401c3464a4edf8505f4b7a4258de" category="list-text">選擇*更新證書*。</block>
   <block id="434da4cffed06e08c23765d021db1afc" category="list-text">在「核准證書」頁面上，選擇「核准憑證」以使用更新後的憑證。</block>
   <block id="49332d7ca8fe54f04384a507c81221de" category="summary">如果您不再想從NetApp Console管理StorageGRID系統，請將其刪除。</block>
@@ -324,9 +302,7 @@
   <block id="e8d1456416daa95bfb687099cc3fbb58" category="summary">了解在NetApp Console中管理StorageGRID系統的新功能。</block>
   <block id="a39b0065ec636bbdd671213be9d343f4" category="doc">StorageGRID管理的新功能</block>
   <block id="59adf231110f5ab5dfdc34e98dacaf75" category="paragraph">了解在NetApp Console中管理StorageGRID系統的新功能。</block>
-  <block id="91d6aafc857e46203357e992ab4434f8" category="section-title">2025年10月6日</block>
   <block id="e48502083eb8949c8f65b2ccddd5adec" category="section-title">2025年5月12日</block>
-  <block id="43371a1519dc6641cd8852962e536c3e" category="section-title">2024年8月7日</block>
   <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022年9月18日</block>
   <block id="2a5debfc305ca51b1d9a57049c60e8cb" category="sidebar">使用 Grid Manager 從NetApp Console管理您的StorageGRID系統，並使用NetApp資料服務進行備份、資料分層等。</block>
   <block id="7b63e3ab012c50052cf80c91528ad009" category="sidebar">使用NetApp Console進行StorageGRID管理</block>
@@ -349,4 +325,26 @@
   <block id="21bd2ca4d81529bdc81f70cd7c8cda30" category="sidebar">使用進階視圖管理StorageGRID</block>
   <block id="ae52ff2fa45ec695a0eb4dddc56142e2" category="sidebar">刪除系統</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知識和支持</block>
+  <block id="597e4208265714f5fbe715a2ecb5cde8" category="doc">需要NetApp Console存取角色</block>
+  <block id="c781879460e95147a58b10c5822cdee1" category="paragraph">您現在需要以下存取角色之一才能在NetApp Console中檢視、發現或管理StorageGRID ：*組織管理員*、*資料夾或專案管理員*、*儲存管理員*或*儲存運作狀況專家*。<block ref="fc1e28d913c6a538c5e9638adc8cfee2" category="inline-link-macro-rx"></block></block>
+  <block id="0e6e1e539b578c2b0388d566d8ae4e15" category="inline-link-macro">了解訪問角色</block>
+  <block id="646004f6286a1c6652c0617f8c295eb1" category="paragraph">儲存管理員或系統健康專家。<block ref="d7b3a182e3f4d537df96f0ab119b3719" category="inline-link-macro-rx"></block>。</block>
+  <block id="d4a8473f83e1246e0b3ab08e2034db7c" category="list-text">日誌收集</block>
+  <block id="eb314977d68b7a27dec7c42f71cc734e" category="list-text">所有指向 Prometheus 指標和 Grafana 儀錶板的鏈接</block>
+  <block id="691d3813e42d3c7a96ce16136d8f0585" category="section-title">切換到網格管理器</block>
+  <block id="c7c42727522342992d0d5a7ac5aac3e9" category="paragraph">開啟StorageGRID系統並選擇網格管理器選項。</block>
+  <block id="1da95130af2b7aa7e5215a16b692f80d" category="list-text">在右上角，選擇*切換到網格管理員*。</block>
+  <block id="7c1357c2af5a3afec56f643266c2d663" category="list-text">如果需要，請選擇「返回」以透過控制台返回標準視圖。</block>
+  <block id="5ed613d5969e54b01e0691f040afb027" category="inline-link-macro">了解NetApp Console存取角色</block>
+  <block id="b65ed78cf783dfcf7a11227a16dee299" category="paragraph">儲存管理員或系統健康專家。<block ref="d47ae35a0d63c1eadf9e54d8e5017d63" category="inline-link-macro-rx"></block>。</block>
+  <block id="b8bf9c5f4f01e9e78e739fa6ff26281c" category="inline-link">請聯絡您的組織管理員</block>
+  <block id="4dd7a3812d2662d3ef305d5a6c0d94af" category="list-text">使用版本 3.9.43 或更高版本的NetApp Console代理程式。您必須具有組織管理員角色才能安裝控制台代理程式。如果您不確定您的組織是否有控制台代理，或者是否需要建立一個，請聯絡您的NetApp Console管理員。<block ref="bf3f14d32c77964cfe44fa0cda47d96b" category="inline-link-rx"></block> 。</block>
+  <block id="d018f459a83db6ae4ef422998ab9f915" category="paragraph"><block ref="d018f459a83db6ae4ef422998ab9f915" category="inline-link-rx"></block></block>
+  <block id="7ca0b225eb61965fb6db2810569aaf51" category="paragraph"><block ref="7ca0b225eb61965fb6db2810569aaf51" category="inline-link-rx"></block></block>
+  <block id="1bac2f8f82de86bfa404d8d3deb90386" category="paragraph"><block ref="1bac2f8f82de86bfa404d8d3deb90386" category="inline-link-rx"></block></block>
+  <block id="3b4f10f05a412a74c29d6cac7ecfd74c" category="paragraph">存儲管理員。<block ref="d47ae35a0d63c1eadf9e54d8e5017d63" category="inline-link-macro-rx"></block>。</block>
+  <block id="18fea311c452091646a60f89f3386c23" category="list-text">請前往StorageGRID中的本機 Grid Manager，並依照下列說明操作：<block ref="5ba9fd123e556ebaf5f5a56be0d2c8b7" category="inline-link-rx"></block> 。</block>
+  <block id="3f4224139b9cbf910de436e966798772" category="list-text">選擇更多選項圖示（帶有三個水平點的圓圈）。</block>
+  <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">2025年10月6日</block>
+  <block id="d6b2c344cefb2303b488f51358e47bad" category="section-title">2024年8月7日</block>
 </blocks>
