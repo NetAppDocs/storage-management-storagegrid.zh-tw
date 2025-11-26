@@ -27,7 +27,7 @@ summary: 發現本地環境中的StorageGRID系統，然後使用 Grid Manager �
 * 管理節點的管理員憑證。
 * 安裝在StorageGRID系統上的管理介面憑證。
 +
-https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["了解有關在StorageGRID上安裝管理介面證書的更多信息"^]
+https://docs.netapp.com/us-en/storagegrid/admin/using-storagegrid-security-certificates.html["了解有關在StorageGRID上安裝管理介面證書的更多信息"^]
 
 
 
@@ -40,7 +40,7 @@ https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-ce
 . 控制台自動檢索StorageGRID管理介面憑證。在「批准證書」頁面上，查看證書詳細資訊。
 . 若要使用不同的證書，請先在StorageGRID系統上設定。
 +
-.. 在您的本機StorageGRID系統中，請依照下列說明操作： https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["在StorageGRID上安裝管理介面證書"^] 。
+.. 在您的本機StorageGRID系統中，請依照下列說明操作： https://docs.netapp.com/us-en/storagegrid/admin/using-storagegrid-security-certificates.html["在StorageGRID上安裝管理介面證書"^]。
 .. 在StorageGRID系統中設定憑證後，在控制台中的「核准憑證」頁面上選擇「*取消*」。
 .. 在「StorageGRID 叢集詳細資料」頁面上，選擇「新增」。
 

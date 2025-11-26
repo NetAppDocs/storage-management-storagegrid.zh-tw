@@ -85,7 +85,6 @@
   <block id="4b233cf02f1889c420108e8345cc0030" category="list-text">使用 Grid Manager 管理StorageGRID系統。</block>
   <block id="e5e3035b0f7e5a2843ab139092d0b6fa" category="section-title">取得網格管理器協助</block>
   <block id="3778f3873debfe11e2ace6bb6af1e417" category="inline-link">StorageGRID文檔</block>
-  <block id="e05b3769a3e17ad902ca3ef85360d7f9" category="paragraph">如果您需要使用網格管理器的協助，請參閱<block ref="a933c7261fbaa2ef6900890d35e68b11" category="inline-link-rx"></block>以獲得逐步說明。</block>
   <block id="d151acbef027ea9883e40b32274c5a04" category="summary">發現本地環境中的StorageGRID系統，然後使用 Grid Manager 直接從NetApp Console管理它們。</block>
   <block id="c10ae48739661aebcdebc04124762406" category="doc">將StorageGRID系統新增至NetApp Console</block>
   <block id="5034e08cdc3b4865f67cdf020c27269b" category="paragraph">使用 Grid Manager 直接從NetApp Console管理您的 StorageGrid 系統。</block>
@@ -96,7 +95,6 @@
   <block id="cdf740c7139af2d388c8083334061fa1" category="list-text">管理節點的管理員憑證。</block>
   <block id="7946381c1469da9982f0ec23675e074e" category="list-text">安裝在StorageGRID系統上的管理介面憑證。</block>
   <block id="899334f483a8eb1e661e504ffe749109" category="inline-link">了解有關在StorageGRID上安裝管理介面證書的更多信息</block>
-  <block id="29f8a7fdcc1561634392c06486db3526" category="paragraph"><block ref="29f8a7fdcc1561634392c06486db3526" category="inline-link-rx"></block></block>
   <block id="c27deb5ada399336a287848889d2032c" category="list-text">從導覽選單中，選擇*儲存&gt;管理*。</block>
   <block id="a2bbc305e061bf1ea8c419672c377672" category="list-text">選擇*系統*。</block>
   <block id="5211458073f915c9abf57481c61698ad" category="list-text">選擇*新增系統*並選擇*本機*。</block>
@@ -105,7 +103,6 @@
   <block id="c11467c66c9d20aefade3d8c6a472be6" category="list-text">控制台自動檢索StorageGRID管理介面憑證。在「批准證書」頁面上，查看證書詳細資訊。</block>
   <block id="b7b06656b02cb84d84e7f79e844f69e6" category="list-text">若要使用不同的證書，請先在StorageGRID系統上設定。</block>
   <block id="fd6ef625f97076ff9598106b60195180" category="inline-link">在StorageGRID上安裝管理介面證書</block>
-  <block id="7ca143532806a5c7adafe28564a2076a" category="list-text">在您的本機StorageGRID系統中，請依照下列說明操作：<block ref="0cf12816ab392319fa8fa5ca90f97c92" category="inline-link-rx"></block> 。</block>
   <block id="9d802d0448e390fa63540342de811f28" category="list-text">在StorageGRID系統中設定憑證後，在控制台中的「核准憑證」頁面上選擇「*取消*」。</block>
   <block id="9ae82cb65355b4df3873a1db559ff935" category="list-text">在「StorageGRID 叢集詳細資料」頁面上，選擇「新增」。</block>
   <block id="f366bb321d887c34c28635516c2e2a3f" category="list-text">或者，選擇「*複製憑證*」來複製憑證的詳細資料。如果需要，您可以使用證書詳細資訊執行額外的驗證。</block>
@@ -347,4 +344,7 @@
   <block id="3f4224139b9cbf910de436e966798772" category="list-text">選擇更多選項圖示（帶有三個水平點的圓圈）。</block>
   <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">2025年10月6日</block>
   <block id="d6b2c344cefb2303b488f51358e47bad" category="section-title">2024年8月7日</block>
+  <block id="2091f731164c7be0cc441cb14dd7e0fb" category="paragraph">如果您在使用網格管理器時需要協助，請參閱<block ref="a5ef9ecfc4cb4075bbcd8c75bedb3b47" category="inline-link-rx"></block> 請參考詳細步驟說明。</block>
+  <block id="02e289e09609553bd74d5dda81ecb5e1" category="paragraph"><block ref="02e289e09609553bd74d5dda81ecb5e1" category="inline-link-rx"></block></block>
+  <block id="bc8c7fb093008fb3e0be35efca86b665" category="list-text">在您的本機StorageGRID系統中，請依照下列說明操作：<block ref="ccef0a266f4ff51bd9b89e82df562999" category="inline-link-rx"></block>。</block>
 </blocks>

@@ -21,7 +21,7 @@ indexpage:
   - title: 更多資訊
     links:
     - title: 用於NetApp Console以外的管理的StorageGRID文檔
-      url: https://docs.netapp.com/us-en/storagegrid-118/
+      url: https://docs.netapp.com/us-en/storagegrid/
   - title: 部落格和社區
     links:
     - title: NetApp Console

@@ -30,7 +30,7 @@ sidebar:
     - title: 查看和更新​​ StorageGRID證書
       url: "/task-manage-certificates.html"
     - title: 使用進階視圖管理StorageGRID
-      url: task-administer-storagegrid.html
+      url: "/task-administer-storagegrid.html"
     - title: 將NetApp資料服務與StorageGRID結合使用
       url: "/task-enable-data-services.html"
     - title: 刪除系統

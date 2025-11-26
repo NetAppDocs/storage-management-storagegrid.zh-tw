@@ -31,7 +31,7 @@ summary: 使用進階視圖從NetApp Console管理StorageGRID系統。此檢視�
 
 控制台無法執行下列網格管理器操作。如果需要執行這些操作，請直接登入網格管理員。
 
-[cols="1a,2a"]
+[cols="1a,3a"]
 |===
 | 網格管理器選單 | 控制台無法執行的操作 
 
@@ -120,4 +120,4 @@ summary: 使用進階視圖從NetApp Console管理StorageGRID系統。此檢視�
 
 == 取得網格管理器協助
 
-如果您需要使用網格管理器的協助，請參閱 https://docs.netapp.com/us-en/storagegrid-118/admin/index.html["StorageGRID文檔"^]以獲得逐步說明。
+如果您在使用網格管理器時需要協助，請參閱 https://docs.netapp.com/us-en/storagegrid/admin/index.html["StorageGRID文檔"^] 請參考詳細步驟說明。
