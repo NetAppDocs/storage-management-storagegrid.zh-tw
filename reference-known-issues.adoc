@@ -18,18 +18,21 @@ summary: 已知問題指明了可能會阻止您成功使用此版本產品的�
 
 
 
+[[updated-display-names-dont-appear-in-the-netapp-console]]
 == 更新後的顯示名稱未出現在NetApp Console中
 
 如果您使用重新命名程序為網站或網格定義新的顯示名稱，則新的顯示名稱不會反映在NetApp Console中。在NetApp Console中，系統會繼續顯示系統名稱而不是新的顯示名稱。
 
 
 
+[[error-when-filtering-alerts]]
 == 過濾警報​​時出錯
 
 使用進階視圖時，過濾警報頁面的內容會導致錯誤。
 
 
 
+[[error-when-editing-grid-federation-connection]]
 == 編輯電網聯合連接時出錯
 
 使用進階視圖時，編輯網格聯合連接時可能會遇到網關逾時錯誤。

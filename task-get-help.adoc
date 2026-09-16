@@ -15,6 +15,7 @@ NetApp以多種方式為NetApp Console及其雲端服務提供支援。全天候
 
 
 
+[[get-support-for-a-cloud-provider-file-service]]
 == 獲取雲端提供者文件服務的支持
 
 有關雲端提供者文件服務、其基礎設施或使用該服務的任何解決方案的技術支持，請參閱該產品的文檔。
@@ -28,6 +29,7 @@ NetApp以多種方式為NetApp Console及其雲端服務提供支援。全天候
 
 
 
+[[use-self-support-options]]
 == 使用自助選項
 
 這些選項每週 7 天、每天 24 小時免費提供：
@@ -48,6 +50,7 @@ NetApp以多種方式為NetApp Console及其雲端服務提供支援。全天候
 
 
 
+[[create-a-case-with-netapp-support]]
 == 向NetApp支援建立案例
 
 除了上述自助支援選項之外，您還可以在啟動支援後與NetApp支援專家合作解決任何問題。
@@ -104,6 +107,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/scr
 
 
 
+[[manage-your-support-cases]]
 == 管理您的支援案例
 
 您可以直接從控制台檢視和管理活動和已解決的支援案例。您可以管理與您的 NSS 帳戶和公司相關的案例。

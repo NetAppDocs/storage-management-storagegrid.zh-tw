@@ -250,7 +250,6 @@
   <block id="e7e9f49f4584c68b9d97c578e73b7583" category="list-text">在控制台的右上角，選擇「幫助」圖標，然後選擇「*支援*」。</block>
   <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">從支援註冊頁面找到您的帳戶 ID 序號。</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">幫助選單的螢幕截圖，其中支援是第一個選項</block>
-  <block id="379f9cd57d97013f3f7fdd24f692a0b1" category="paragraph"><block ref="379f9cd57d97013f3f7fdd24f692a0b1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">NetApp 的支援註冊網站</block>
   <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">導航至<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block>並選擇*我不是註冊的NetApp客戶*。</block>
   <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">填寫必填欄位（帶有紅色星號的欄位）。</block>
@@ -273,7 +272,6 @@
   <block id="5bc1315a63455544e7a917a7cc968939" category="paragraph">這些 NSS 憑證與您的特定控制台帳戶 ID 相關聯。屬於控制台組織的使用者可以從*支援 &gt; NSS 管理*存取這些憑證。</block>
   <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">如果您有客戶級帳戶，則可以新增一個或多個 NSS 帳戶。</block>
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">如果您有合作夥伴或經銷商帳戶，則可以新增一個或多個 NSS 帳戶，但不能與客戶級帳戶一起新增。</block>
-  <block id="e8d4092baef6680c6a35d5228ae31de2" category="paragraph"><block ref="e8d4092baef6680c6a35d5228ae31de2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c0e0b7ff0de9558404e9b77ece42948a" category="list-text">選擇*NSS 管理 &gt; 新增 NSS 帳號*。</block>
   <block id="85b9386ed443776127e099931d73448a" category="list-text">當出現提示時，選擇「*繼續*」以重新導向至 Microsoft 登入頁面。</block>
   <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp使用 Microsoft Entra ID 作為特定於支援和授權的身份驗證服務的身份提供者。</block>
@@ -285,8 +283,6 @@
   <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">如果您已有客戶級 NSS 帳戶並嘗試新增合作夥伴級帳戶，情況也是如此。</block>
   <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">成功登入後， NetApp將儲存 NSS 使用者名稱。</block>
   <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">三個水平點的圖標</block>
-  <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">這是系統產生的映射到您的電子郵件的 ID。在*NSS 管理*頁面上，您可以顯示來自<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block>菜單。</block>
-  <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">如果您需要刷新登入憑證令牌，還有一個*更新憑證*選項<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block>菜單。</block>
   <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">使用此選項會提示您再次登入。請注意，這些帳戶的令牌將在 90 天後過期。我們將發布通知來提醒您此事。</block>
   <block id="0bf8a233feaff9e97e741d5e88905db3" category="summary">發現StorageGRID系統後，您可以查看有關容量分佈以及相關警報、節點和租戶的詳細資訊。</block>
   <block id="c20219c45cfba3fdfc2396d8aa96c143" category="doc">查看您的StorageGRID系統</block>
@@ -324,22 +320,17 @@
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知識和支持</block>
   <block id="597e4208265714f5fbe715a2ecb5cde8" category="doc">需要NetApp Console存取角色</block>
   <block id="c781879460e95147a58b10c5822cdee1" category="paragraph">您現在需要以下存取角色之一才能在NetApp Console中檢視、發現或管理StorageGRID ：*組織管理員*、*資料夾或專案管理員*、*儲存管理員*或*儲存運作狀況專家*。<block ref="fc1e28d913c6a538c5e9638adc8cfee2" category="inline-link-macro-rx"></block></block>
-  <block id="0e6e1e539b578c2b0388d566d8ae4e15" category="inline-link-macro">了解訪問角色</block>
-  <block id="646004f6286a1c6652c0617f8c295eb1" category="paragraph">儲存管理員或系統健康專家。<block ref="d7b3a182e3f4d537df96f0ab119b3719" category="inline-link-macro-rx"></block>。</block>
   <block id="d4a8473f83e1246e0b3ab08e2034db7c" category="list-text">日誌收集</block>
   <block id="eb314977d68b7a27dec7c42f71cc734e" category="list-text">所有指向 Prometheus 指標和 Grafana 儀錶板的鏈接</block>
   <block id="691d3813e42d3c7a96ce16136d8f0585" category="section-title">切換到網格管理器</block>
   <block id="c7c42727522342992d0d5a7ac5aac3e9" category="paragraph">開啟StorageGRID系統並選擇網格管理器選項。</block>
   <block id="1da95130af2b7aa7e5215a16b692f80d" category="list-text">在右上角，選擇*切換到網格管理員*。</block>
   <block id="7c1357c2af5a3afec56f643266c2d663" category="list-text">如果需要，請選擇「返回」以透過控制台返回標準視圖。</block>
-  <block id="5ed613d5969e54b01e0691f040afb027" category="inline-link-macro">了解NetApp Console存取角色</block>
-  <block id="b65ed78cf783dfcf7a11227a16dee299" category="paragraph">儲存管理員或系統健康專家。<block ref="d47ae35a0d63c1eadf9e54d8e5017d63" category="inline-link-macro-rx"></block>。</block>
   <block id="b8bf9c5f4f01e9e78e739fa6ff26281c" category="inline-link">請聯絡您的組織管理員</block>
   <block id="4dd7a3812d2662d3ef305d5a6c0d94af" category="list-text">使用版本 3.9.43 或更高版本的NetApp Console代理程式。您必須具有組織管理員角色才能安裝控制台代理程式。如果您不確定您的組織是否有控制台代理，或者是否需要建立一個，請聯絡您的NetApp Console管理員。<block ref="bf3f14d32c77964cfe44fa0cda47d96b" category="inline-link-rx"></block> 。</block>
   <block id="d018f459a83db6ae4ef422998ab9f915" category="paragraph"><block ref="d018f459a83db6ae4ef422998ab9f915" category="inline-link-rx"></block></block>
   <block id="7ca0b225eb61965fb6db2810569aaf51" category="paragraph"><block ref="7ca0b225eb61965fb6db2810569aaf51" category="inline-link-rx"></block></block>
   <block id="1bac2f8f82de86bfa404d8d3deb90386" category="paragraph"><block ref="1bac2f8f82de86bfa404d8d3deb90386" category="inline-link-rx"></block></block>
-  <block id="3b4f10f05a412a74c29d6cac7ecfd74c" category="paragraph">存儲管理員。<block ref="d47ae35a0d63c1eadf9e54d8e5017d63" category="inline-link-macro-rx"></block>。</block>
   <block id="18fea311c452091646a60f89f3386c23" category="list-text">請前往StorageGRID中的本機 Grid Manager，並依照下列說明操作：<block ref="5ba9fd123e556ebaf5f5a56be0d2c8b7" category="inline-link-rx"></block> 。</block>
   <block id="3f4224139b9cbf910de436e966798772" category="list-text">選擇更多選項圖示（帶有三個水平點的圓圈）。</block>
   <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">2025年10月6日</block>
@@ -347,4 +338,16 @@
   <block id="2091f731164c7be0cc441cb14dd7e0fb" category="paragraph">如果您在使用網格管理器時需要協助，請參閱<block ref="a5ef9ecfc4cb4075bbcd8c75bedb3b47" category="inline-link-rx"></block> 請參考詳細步驟說明。</block>
   <block id="02e289e09609553bd74d5dda81ecb5e1" category="paragraph"><block ref="02e289e09609553bd74d5dda81ecb5e1" category="inline-link-rx"></block></block>
   <block id="bc8c7fb093008fb3e0be35efca86b665" category="list-text">在您的本機StorageGRID系統中，請依照下列說明操作：<block ref="ccef0a266f4ff51bd9b89e82df562999" category="inline-link-rx"></block>。</block>
+  <block id="432e57b4ac6417575095631e36c4ad84" category="doc">支援 StorageGRID 12.1</block>
+  <block id="b6d09872582b8745a9b3f149504d2383" category="paragraph">您現在可以從 NetApp Console 管理您的 StorageGRID 12.1 系統。</block>
+  <block id="fe21ed67c3641d5e2e10ba99109b6611" category="inline-link">了解如何使用 NetApp Console 中的進階檢視來管理 StorageGRID</block>
+  <block id="4df6d59ec4dc722c05f0d3acec14b56c" category="paragraph"><block ref="e0100fd3222c3d2603aecd8b497b4e0b" category="inline-link-rx"></block>。</block>
+  <block id="c86bd67be80794fcaa3f1d91aa8b2899" category="inline-link-macro">了解存取角色。</block>
+  <block id="78e3f4b5d8fca01381acada3db128ef2" category="paragraph">超級管理員、儲存管理員或系統健全狀況專家。<block ref="5a4d408bd57f7cf7efbd6cf878c737a7" category="inline-link-macro-rx"></block></block>
+  <block id="42d5bb3c34164a8507ef2843a56569b5" category="paragraph">超級管理員、儲存管理員或系統健全狀況專家。<block ref="df85ea2f8ea618bf5b67be06e51eaa48" category="inline-link-macro-rx"></block></block>
+  <block id="d6a0af91e64dce2035f40472c9ccb100" category="paragraph">超級管理員或儲存管理員。<block ref="df85ea2f8ea618bf5b67be06e51eaa48" category="inline-link-macro-rx"></block></block>
+  <block id="38fc1b337c0ea26463916fc2913205c1" category="paragraph"><block ref="38fc1b337c0ea26463916fc2913205c1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7019a39846e9a2c7f7a80eaba91e4a41" category="paragraph"><block ref="7019a39846e9a2c7f7a80eaba91e4a41" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1d593c3f7480ada9580d93cd753c3f93" category="paragraph">這是系統產生的與您的電子郵件地址對應的 ID。您可以在 *NSS Management* 頁面的 <block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block> 選單中找到您的電子郵件地址。</block>
+  <block id="872eaae7deb6035c20f9bfe6deefd03d" category="list-text">如果您需要刷新登入憑證令牌，<block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block> 選單中還有一個「更新憑證」選項。</block>
 </blocks>

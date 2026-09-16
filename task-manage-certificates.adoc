@@ -17,10 +17,11 @@ summary: 由於憑證可能會過期，您有時可能需要查看狀態或更�
 在您從NetApp Console發現系統之前， StorageGRID系統上需要有管理介面憑證。此憑證在控制台和StorageGRID之間提供了安全連線。由於憑證可能會過期，您有時可能需要查看狀態或更新憑證。
 
 .所需的NetApp Console角色：
-存儲管理員。link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["了解NetApp Console存取角色"^]。
+超級管理員或儲存管理員。link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解NetApp Console存取角色。"^]
 
 
 
+[[view-the-status-of-a-management-interface-certificate]]
 == 查看管理介面證書的狀態
 
 查看StorageGRID系統的管理介面憑證的狀態，以驗證該憑證是否仍然有效。
@@ -37,6 +38,7 @@ NOTE: 證書狀態每24小時刷新一次。
 
 
 
+[[update-the-management-interface-certificate]]
 == 更新管理介面證書
 
 如果您的管理介面憑證狀態無效或您收到憑證已過期的通知，則需要更新它，以便NetApp Console可以連接到StorageGRID。

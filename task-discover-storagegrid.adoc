@@ -17,7 +17,7 @@ summary: 發現本地環境中的StorageGRID系統，然後使用 Grid Manager �
 使用 Grid Manager 直接從NetApp Console管理您的 StorageGrid 系統。
 
 .所需的NetApp Console角色：
-儲存管理員或系統健康專家。link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["了解NetApp Console存取角色"^]。
+超級管理員、儲存管理員或系統健全狀況專家。link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解NetApp Console存取角色。"^]
 
 .開始之前
 您需要以下內容：
